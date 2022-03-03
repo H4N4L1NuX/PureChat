@@ -1,0 +1,61 @@
+---
+version: 1.4.10-7
+enable-multiworld-chat: false
+groups:
+  Member:
+    chat: §l§o[§a•Member§f] [{display_name}] [{fac_name}] >> {msg}
+    nametag: '&a[Member] &f{display_name}'
+    worlds: []
+  Admin:
+    chat: §l§o[§9•Admin§f] >> {display_name} >> {msg}
+    nametag: '&9[Admin]&e &6{display_name}'
+    worlds: []
+  Owner:
+    chat: '&c[Owner]  &b{display_name} &c>&6> &b{msg}'
+    nametag: '&c[Owner]&c &b{display_name}'
+    worlds: []
+  Builder:
+    nametag: '&e&l[Builder]&f&r {display_name}'
+    chat: §l§o[§e•Builder§f] >> {display_name} >> {msg}
+    worlds: []
+  Development:
+    chat: §l§o[§5•Devloper§f] >> {display_name} >> {msg}
+    nametag: '&5&l[Development]&f&r {display_name}'
+    worlds: []
+  Helper:
+    nametag: '&3&l[Helper]&f&r {display_name}'
+    chat: §l§o[§3•Helper§f] >> {display_name} >> {msg}
+    worlds: []
+  Voters:
+    chat: §l§o[l§[§1•Voters§f] >> {display_name} >> {msg}
+    nametag: '&1&l[Voters]&f&r {display_name}'
+    worlds: []
+  VIP:
+    chat: §l§o[•§bV§aI§9P§f] [{display_name}] [{fac_name}] >> {msg}
+    nametag: '&l&b[VIP] &f{display_name}'
+    worlds: []
+  VIP+:
+    chat: §l§o[•§bV§aI§9P§4+§f] [{display_name}] [{fac_name}] >> {msg}
+    nametag: '&l&b[VIP+] &f{display_name}'
+    worlds: []
+  VIP++:
+    chat: §l§o[•§bV§aI§9P§4++§f] [{display_name}] [{fac_name}] >> {msg}
+    nametag: '&l&b[VIP++] &f{display_name}'
+    worlds: []
+  MVP++:
+    chat: §l§o[•§4M§6V§1P§c++§f] [{display_name}] [{fac_name}] >> {msg}
+    nametag: '&l&6[MVP++] &f{display_name}'
+    worlds: []
+  MVP+:
+    chat: §l§o[•§4M§6V§1P§c+§f] [{display_name}] [{fac_name}] >> {msg}
+    nametag: '&l&6[MVP] &f{display_name}'
+    worlds: []
+  MVP:
+    chat: §l§o[•§4M§6V§1P§f] [{display_name}] [{fac_name}] >> {msg}
+    nametag: '&l&6[MVP] &f{display_name}'
+    worlds: []
+  Legends:
+    chat: §l§o[§0•Legends§f] [{display_name}] [{fac_name}] >> {msg}
+    nametag: '&0&l[Legends] &f{display_name}'
+    worlds: []
+...
